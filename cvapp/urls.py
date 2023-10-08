@@ -6,5 +6,5 @@ from .views import DownloadPdf
 urlpatterns = [
     path('', views.index, name='index'),
     path('pdf/', DownloadPdf), 
-    path(r'favicon\.ico', RedirectView.as_view(url='/static/images/fav.png')),
+    path(r'favicon\.ico', RedirectView.as_view(url='/static/images/favicon.ico')),
 ]

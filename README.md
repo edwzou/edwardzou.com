@@ -10,7 +10,7 @@ by Edward Zou | 6 October 2023
 
 ## Intro
 
-This is a simple, but beautiful personal Portfolio website utilizing the technologies below:
+This is my simple and personal portfolio website utilizing the technologies below:
 
 * Python - Django
 * Database with SQLite3 (can switch to PostgreSQL, MySQL)
@@ -31,7 +31,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 1. Pull down the GitHub repo and extract to a local folder, then run the command:
 
    ```
-   cd digiCV2Django
+   cd edwardzou.com
    ```
 
 2. Install the libraries in `requirement.txt` locally.
@@ -43,28 +43,10 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 3. Open the terminal in VS Code and type in:
 
    ```
-   python3 manage.py runserver
+   python manage.py runserver
    ```
 
 4. then open a browser and point to https://localhost:8000.
-
-
-
-## Run the Webapp in Docker Container locally
-
-1. Start your Docker Desktop (Windows or macOS or Linux), then build the image
-
-   ```
-   docker build -t <yourDockerAccount>/digicv2dj:0.1 .
-   ```
-
-2. Docker run:
-
-   ```
-   docker run -d -p 127.0.0.1:8000:800 --name DigiCV2dj <yourDockerAccount>/digicv2dj:0.1
-   ```
-
-3. Open a browser and point to https://127.0.0.1:8000.
 
 
 
@@ -88,7 +70,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 ## Env. of Dockerizing the Webapp on render.com
 
 ```
-PYTHON_VERSION: 3.10.11
+PYTHON_VERSION: 3.11.6
 NODE_VERSUIN: 18.16.0
 PORT: 8000
 ```
@@ -98,3 +80,9 @@ PORT: 8000
 ## License
 
 \- GPL
+
+
+
+## Website Version
+
+version 2.0
