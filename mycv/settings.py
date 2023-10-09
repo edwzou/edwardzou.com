@@ -86,7 +86,7 @@ STATICFILES_DIRS=[
 ]
 
 
-CSRF_TRUSTED_ORIGINS = ['https://www.edwardzou.com', 'http://www.edwardzou.com']
+CSRF_TRUSTED_ORIGINS = ['https://www.edwardzou.com', 'http://www.edwardzou.com', 'https://edwardzou.com', 'http://edwardzou.com']
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
