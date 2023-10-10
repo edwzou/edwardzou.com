@@ -85,4 +85,4 @@ PORT: 8000
 
 ## Website Version
 
-version 2.0.2
+version 2.0.4

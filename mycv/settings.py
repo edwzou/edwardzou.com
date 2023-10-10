@@ -85,7 +85,7 @@ STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
 ]
 
-# Add CSRF Trusted Origins and disable CSRF related secure check
+
 CSRF_TRUSTED_ORIGINS = ['https://www.edwardzou.com', 'http://www.edwardzou.com', 'https://edwardzou.com', 'http://edwardzou.com']
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
