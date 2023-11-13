@@ -86,5 +86,3 @@ PORT: 8000
 ## Website Version
 
 version 2.0.5 - 2023.11.13
-
-version 2.0.4 - 2023.10.06
