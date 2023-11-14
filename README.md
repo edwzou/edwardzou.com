@@ -71,7 +71,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 
 ```
 PYTHON_VERSION: 3.11.6
-NODE_VERSUIN: 18.16.0
+NODE_VERSION: 18.16.0
 PORT: 8000
 ```
 
