@@ -3,7 +3,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mf@th4&vlrh77ujw1@o77mpu8na@!#-gkjbq3236xu==*+()#9'
 DEBUG = True
-X_FRAME_OPTIONS = 'ALLOW' # disable this line since it does not work
+#X_FRAME_OPTIONS = 'ALLOW' # disable this line since it does not work
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.0.0.50', '68.146.19.151', 'edwzou-portfolio.onrender.com', '.edwardzou.com']
 # Application definition
 INSTALLED_APPS = [
