@@ -3,8 +3,6 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mf@th4&vlrh77ujw1@o77mpu8na@!#-gkjbq3236xu==*+()#9'
 DEBUG = True
-# Redirect HTTP requests to HTTPS
-SECURE_SSL_REDIRECT = True
 # More Allowed Hosts
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com', '.edwardzou.com']
 # Application definition
@@ -26,7 +24,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'mycv.urls'
@@ -70,29 +68,39 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
-
 STATIC_URL = '/static/'
-MEDIA_URL='/images/'
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'static')
+MEDIA_URL = '/images/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
 ]
 
-
-CSRF_TRUSTED_ORIGINS = ['https://www.edwardzou.com', 'http://www.edwardzou.com', 'https://edwardzou.com', 'http://edwardzou.com']
+CSRF_TRUSTED_ORIGINS = ['https://www.edwardzou.com',
+                        'http://www.edwardzou.com',
+                        'https://edwardzou.com',
+                        'http://edwardzou.com']
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
+# Redirect HTTP requests to HTTPS
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+# SECURE_SSL_REDIRECT = True -- Doesn't work with Django/Docker with error: ERR_TOO_MANY_REDIRECTS
+
+# FOR LOCAL DEVELOPMENT - Enable the below and disable SECURE_PROXY_SSL_HEADER please
+# CORS_REPLACE_HTTPS_REFERER      = False
+# HOST_SCHEME                     = "http://"
+# SECURE_PROXY_SSL_HEADER         = None
+# SECURE_SSL_REDIRECT             = False
+# SESSION_COOKIE_SECURE           = False
+# CSRF_COOKIE_SECURE              = False
+# SECURE_HSTS_SECONDS             = None
+# SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
+# SECURE_FRAME_DENY               = False
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
