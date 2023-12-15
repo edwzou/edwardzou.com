@@ -59,9 +59,9 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
    ```
    git init
    git add .
-   git commit -m "DigiCV2dj-1st-commit"
+   git commit -m "myportfolio.com v2.0.7"
    git branch -M main
-   git remote add origin https://github.com/<YourGitHubAccount>/DigiCV2dj.git
+   git remote add origin https://github.com/<YourGitHubAccount>/myportfolio.git
    git push -u origin main
    ```
 
