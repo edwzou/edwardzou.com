@@ -72,7 +72,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 ```
 PYTHON_VERSION: 3.11.6
 NODE_VERSION: 18.16.0
-PORT: 8000
+PORT: 8010
 ```
 
 
@@ -86,4 +86,5 @@ PORT: 8000
 ## Website Version
 
 version 2.1.0 - 2023.12.14
+
 Updates: - Customized runserver port to be 8010 in settings.py
