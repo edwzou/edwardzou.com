@@ -52,16 +52,16 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 
 ## Deploy the Webapp to your GitHub
 
-1. Create a repo on your GitHub account, say `digicv2dj`.
+1. Create a repo on your GitHub account, say `myPortfolio`.
 
 2. Push the webapp to the GitHub:
 
    ```
    git init
    git add .
-   git commit -m "myportfolio.com v2.0.7"
+   git commit -m "myPortfolio.com v2.0.7"
    git branch -M main
-   git remote add origin https://github.com/<YourGitHubAccount>/myportfolio.git
+   git remote add origin https://github.com/<YourGitHubAccount>/myPortfolio.git
    git push -u origin main
    ```
 
