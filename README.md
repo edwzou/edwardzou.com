@@ -1,6 +1,6 @@
 # Django Portfolio Website
 
-by Edward Zou | 12 December 2023
+by Edward Zou | 14 December 2023
 
 
 
@@ -46,7 +46,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
    python manage.py runserver
    ```
 
-4. then open a browser and point to https://localhost:8000.
+4. then open a browser and point to http://127.0.0.1:8010.
 
 
 
@@ -59,7 +59,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
    ```
    git init
    git add .
-   git commit -m "myPortfolio.com v2.0.7"
+   git commit -m "myPortfolio.com v2.1.0"
    git branch -M main
    git remote add origin https://github.com/<YourGitHubAccount>/myPortfolio.git
    git push -u origin main
@@ -85,4 +85,5 @@ PORT: 8000
 
 ## Website Version
 
-version 2.0.9 - 2023.12.12
+version 2.1.0 - 2023.12.14
+Updates: - Customized runserver port to be 8010 in settings.py
