@@ -87,4 +87,4 @@ PORT: 8010
 
 version 2.1.0 - 2023.12.14
 
-Updates: - Customized runserver port to be 8010 in settings.py
+Update: - Customized runserver port
