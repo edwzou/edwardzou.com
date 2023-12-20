@@ -5,7 +5,7 @@ from django.conf import settings
 import os
 
 def DownloadPdf(request):
-    pdf = os.path.join('static/assets', 'Edward-Resume.pdf')
+    pdf = os.path.join('static/assets', 'EdwardZou-Resume.pdf')
     return FileResponse(open(pdf, 'rb'), content_type='application/pdf')
 
 def index(request):
