@@ -95,8 +95,7 @@ SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
-# Redirect HTTP requests to HTTPS - Eventually issue resolved by enabling HSTS on Reverse Proxy
-
+# Redirect HTTP requests to HTTPS - Eventually resolved by enabling HSTS on Reverse Proxy - 2023.12.18
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https') # Disabled for debuging ERR_CONNECTION_TIMEOUT - 2023.12.12
 # SECURE_SSL_REDIRECT = True                # Doesn't work on Django/Docker with error: ERR_TOO_MANY_REDIRECTS - 2023.12.02
 
