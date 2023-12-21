@@ -10,7 +10,7 @@ from django.core.management.commands.runserver import Command as runserver
 runserver.default_port = "8010"
 
 # More Allowed Hosts
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com', '.edwardzou.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.0.0.50', '68.146.19.151', '.onrender.com', '.edwardzou.com']
 
 # Application definition
 INSTALLED_APPS = [
