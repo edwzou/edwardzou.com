@@ -1,6 +1,6 @@
 # Django Portfolio Website
 
-by Edward Zou | December 20, 2023
+by Edward Zou | December 21, 2023
 
 
 
@@ -85,4 +85,4 @@ PORT: 8010
 
 ## Website Version
 
-version 2.1.1 - 2023.12.20
+version 2.1.2 - 2023.12.21
