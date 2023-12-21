@@ -34,7 +34,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mycv.urls'
+ROOT_URLCONF = 'myPortfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -51,7 +51,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mycv.wsgi.application'
+WSGI_APPLICATION = 'myPortfolio.wsgi.application'
 
 DATABASES = {
     'default': {
