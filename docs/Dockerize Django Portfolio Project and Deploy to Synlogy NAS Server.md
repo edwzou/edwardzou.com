@@ -111,7 +111,7 @@ by Edward Zou | 4 January 2024
 
 3. Test run the Docker image into a Container (Optional)
 
-   - __Running a Intel/AMD64 image/container on M1/M2 MacBook/iMac may lead to issue!!!__
+   - __Running an Intel/AMD64 image/container on M1/M2 MacBook/iMac may lead to issue!!!__
    - __Better ensure the Docker Image/Container and the Running OS share the same architecture.__
 
    ```shell
