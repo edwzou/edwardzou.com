@@ -1,30 +1,22 @@
 # Django Portfolio Website
 
-by Edward Zou | December 23, 2023
-
-
+by Edward Zou | January 20, 2024
 
 ![forepage](static/images/forepage.png)
-
-
 
 ## Intro
 
 This is my simple and personal portfolio website utilizing the technologies below:
 
-* Python - Django
-* Database with SQLite3 (can switch to PostgreSQL, MySQL)
-* Bootstrap with localized CSS files
-* JavaScript
-* Docker deployment
-
-
+- Python - Django
+- Database with SQLite3 (can switch to PostgreSQL, MySQL)
+- Bootstrap with localized CSS files
+- JavaScript
+- Docker deployment
 
 ## Future plan
 
 Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3/PostgreSQL + Tailwind` in the future.
-
-
 
 ## How to run the Webapp locally
 
@@ -37,18 +29,16 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 2. Install the libraries in `requirement.txt` locally.
 
    ```
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3. Open the terminal in VS Code and type in:
 
    ```
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 
 4. then open a browser and point to http://127.0.0.1:8010.
-
-
 
 ## Deploy the Webapp to your GitHub
 
@@ -65,8 +55,6 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
    git push -u origin main
    ```
 
-
-
 ## Env. of Dockerizing the Webapp on render.com
 
 ```
@@ -75,14 +63,10 @@ NODE_VERSION: 18.16.0
 PORT: 8010
 ```
 
-
-
 ## License
 
 \- GPL
 
-
-
 ## Website Version
 
-version 2.1.5 - 2023.12.23
+version 2.1.6 - 2024.01.20
