@@ -99,7 +99,7 @@ by Edward Zou | 4 January 2024
    ```
 
    * The reason to add "__--platform linux/amd64__" is due to the target Synology NAS (DS920+) is Intel/AMD CPU while building platform is a M2 MacBook (ARM based).
-   * If you build the image from a Intel/AMD CPU based Linux or Windows OS, such parameter can be ignored.
+   * If you build the image from an Intel/AMD CPU based Linux or Windows OS, such parameter can be ignored.
 
    
 
