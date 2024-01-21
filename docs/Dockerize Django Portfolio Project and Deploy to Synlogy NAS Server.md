@@ -158,7 +158,7 @@ by Edward Zou | 4 January 2024
 - Select that image and click `Run` button to configure/create the Container:
   
   - At "__General Settings__" page, name the Container as "**edspace-2.1.6**" and check the checkbox of "__Enable auto-start__".
-     - At __Advanced Settings__ page, Divert __local port 8010__ to __container port 8010__  with "TCP" type; Keep other settings unchanged.
+  - At __Advanced Settings__ page, Divert __local port 8010__ to __container port 8010__  with "TCP" type; Keep other settings unchanged.
   - At __Summary__ page, simply click the `Done` button.
    - Once the container starts, Open the Container's "__Log__" sub-page, you shall see no error, but regular information.
 
