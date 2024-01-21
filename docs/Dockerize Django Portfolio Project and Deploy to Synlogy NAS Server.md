@@ -13,10 +13,10 @@ by Edward Zou | 4 January 2024
 ## B) Pre-requisites
 
 1. a Docker Hub account - can be signed up at https://hub.docker.com.
-2. a Docker Desktop app - can be downloaded from http://docker.io and installedon Windows/Mac computer.
+2. a Docker Desktop app - can be downloaded from http://docker.io and installed on Windows/Mac computer.
 4. a Domain registered from Godaddy or Wordpress.com or any webhosting services.
 5. a Synology NAS server supporting Docker/VM, luckily we have DS920+.
-6. Passion to explore and trouble-shoot, plus some experiences of Linux commands.
+6. Passion to explore and trouble-shoot, plus some hands-on of Linux commands.
 
 
 
