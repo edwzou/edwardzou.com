@@ -22,7 +22,7 @@ by Edward Zou | 4 January 2024
 
 ## C) Create Django based Portfolio Website locally
 
-1. Make sure the Dev Environment is up-to-date by installing the following apps/modules on to our lovely iMac 2021 (M1 chip).
+1. Make sure the Dev Environment is up-to-date by installing the following apps/modules on to our lovely iMac 2021 (M1 chip) or M2 MacBook.
 
    - Node: 18.16.0
 
