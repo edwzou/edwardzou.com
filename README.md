@@ -65,7 +65,7 @@ PORT: 8010
 
 ## License
 
-\- GPL
+- GPL
 
 ## Website Version
 
