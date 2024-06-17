@@ -85,4 +85,4 @@ PORT: 8010
 
 ## Website Version
 
-version 2.1.6 - 2024/06/17
+version 2.1.7 - 2024/06/17
