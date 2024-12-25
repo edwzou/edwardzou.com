@@ -5,9 +5,8 @@
 # Django #
 *.log
 *.pot
-*.pyc
-cvapp/__pycache__/
-myPortfolio/__pycache__/
+**/*.pyc
+**/__pycache__
 media
 
 # Backup files # 
