@@ -6,10 +6,11 @@
 *.log
 *.pot
 *.pyc
-__pycache__
+cvapp/__pycache__/
+myPortfolio/__pycache__/
 media
 
 # Backup files # 
 *.bak 
 
-venv
+venv/
