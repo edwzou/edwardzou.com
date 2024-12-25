@@ -209,7 +209,7 @@ by Edward Zou | 4 January 2024
 4. Configure another `Reverse Proxy Rules` of __HTTP__
    - Reverse Proxy Name: www_edwardzou_com
    - Source
-     - Protocol: HTTP
+     - Protocol: HTTPS
      - Hostname: www.edwardzou.com
      - Port: 80
    - Destination
