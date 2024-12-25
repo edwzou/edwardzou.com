@@ -11,6 +11,7 @@ myPortfolio/__pycache__/
 media
 
 # Backup files # 
-*.bak 
+*.bak
+.DS_Store
 
 venv/
