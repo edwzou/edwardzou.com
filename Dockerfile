@@ -1,6 +1,7 @@
 # Dockerfile
 
-FROM python:3.11.6-slim
+## FROM python:3.11.6-slim (invalidate this as of 25 Dec 2024)
+FROM python:3.12-slim
 
 WORKDIR /app
 
