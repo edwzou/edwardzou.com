@@ -11,3 +11,5 @@ media
 
 # Backup files # 
 *.bak 
+
+venv
