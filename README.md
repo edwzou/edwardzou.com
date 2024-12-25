@@ -1,6 +1,6 @@
 # Django Portfolio Website
 
-by Edward Zou | October 29, 2024
+by Edward Zou | December 25, 2024
 
 
 
@@ -37,7 +37,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
 2. Install the libraries in `requirement.txt` locally.
 
    ```
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3. Open the terminal in VS Code and type in:
@@ -59,7 +59,7 @@ Thinking about re-writing the webapp using `React/MaterialUI + Express + SQLite3
    ```
    git init
    git add .
-   git commit -m "myPortfolio.com v2.1.0"
+   git commit -m "2.2.0"
    git branch -M main
    git remote add origin https://github.com/<YourGitHubAccount>/myPortfolio.git
    git push -u origin main
@@ -85,4 +85,5 @@ PORT: 8010
 
 ## Website Version
 
+version 2.2.0 - 2024/12/25
 version 2.1.8 - 2024/10/29
